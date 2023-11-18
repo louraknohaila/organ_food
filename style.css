@@ -1,0 +1,132 @@
+body {
+    background-image: url('background3.png');
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container1{
+    display: flex;
+}
+.cont2{
+    position :relative;
+    left :320px;
+    top: 10px;
+    z-index: 1;
+}
+.cont1{
+    position :relative;
+    top: 25px;
+}
+.texte1,.texte2,.texte3{
+    margin-bottom: 20px;
+}
+.titre1{
+      position :relative;
+      left: 55px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana;
+        font-size: 35px;
+        font-weight: 700;
+        color:rgb(4, 65, 4);
+}
+.discount {
+    background-color: rgb(7, 68, 7);
+    color: rgb(235, 234, 234);
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    position : relative;
+    left: 20px;
+    text-align: center;
+}
+.discount:hover{
+    background-color: rgba(16, 131, 16, 0.945);
+    cursor: pointer;
+}
+.texte1{
+      position : relative;
+      left: 68px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana;
+      font-size: 25px;
+      font-weight: 600;
+      color: rgb(9, 87, 9);
+}
+.texte2{
+      position : relative;
+       left :68px;
+       background-color: rgb(5, 109, 5);
+       padding: 0 40px;
+       border-radius: 0 50px 0 50px;
+}
+.texte2:hover{
+    background-color:rgb(30, 165, 30) ;
+    cursor: pointer;
+}
+.texte3{
+    position : relative;
+    left :155px;
+    top: 40px;
+    color: rgba(0, 0, 0, 0.582);
+    text-indent: 15px;
+}
+.container2{
+    position :relative;
+    bottom :120px;
+    background-color: rgba(10, 68, 10, 0.788);
+    width: 1300px;
+    right: 8px;
+    height: 400px;
+    
+}
+.social-button{
+    background-color: #fff;
+}
+.info-button{
+     background-color: rgb(10, 92, 10);
+     color :white;
+     padding: 9px;
+     position :relative;
+     bottom:9px;
+}
+.info-button:hover{
+    background-color: rgb(30, 165, 30);
+    cursor: pointer;
+    cursor: pointer;
+}
+.social-button:hover{
+    background-color: rgb(10, 92, 10);
+    cursor: pointer;
+    
+}
+.icones{
+    position :relative;
+    top: 45px;
+    left: 190px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .cont1,
+    .cont2 {
+        position: static;
+        left: 0;
+        width: 100%;
+    }
+
+    .titre1,
+    .texte1,
+    .texte2,
+    .texte3 {
+        left: 0;
+    }
+    .icones{
+        position :relative;
+        left: 56px;
+       top: 19px;
+    }
+    .container2{
+         position :relative;
+         bottom: 58px;
+         height: 190px;
+    }
+}
